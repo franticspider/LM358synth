@@ -9,28 +9,34 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 
 ## BOM
 
-'*' means that its done on the breadboard!
+#### ICs
 
-- 47k		1* ,6* ,14* ,31*
-- 22k		2* ,7* ,11* ,28* ,30* ,33*
-- 10k		3* ,24* ,25* ,32*
-- 100k		4* ,5* ,9* ,10* ,12* ,26* ,27*
-- R8  		470k*
-- R13  					50k pot, PWM balance
-- R15  		4k7*
-- R16-R23 				100k pot - key tuning - try with 1 key only!
-- R29 		*	390k
+- LM358: U1-5
 
+#### Resistors
 
-- LDR1 & LDR2 - 2022382 jameco (10k)
+- 47k:		R1 ,6 ,14 ,31
+- 22k:		2 ,7 ,11 ,28 ,30 ,33
+- 10k:		3 ,24 ,25 ,32
+- 100k:	  4 ,5 ,9 ,10 ,12 ,26 ,27
+- 4k7:    15
+- 470k:   8
+- 390k:   29 
 
-- U1-5 LM358
+#### Capacitors
 
 - C1 					0u22f
 - C2 					2u2F +
 - C3 					4u7F +
 - C4,C5  				0u001F
 - C6     				4u7F +
+
+#### Pots, switches etc:
+
+- R16-R23 				100k pot - key tuning - try with 1 key only!
+- R13  					50k pot, PWM balance
+- LDR1 & LDR2 - 2022382 jameco (10k)
+
 
 
 ## Notes on the circuit. 
